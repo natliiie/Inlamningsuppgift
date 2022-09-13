@@ -12,19 +12,31 @@ function App() {
 
   return (
     <div>
-      <header>My header</header>
       <Navbar />
-      <div>This is me</div>
-      {/* här vill jag ha info */}
-      {/* här vill jag ha min form */}
-      <Form handleMessages={handleMessages} />
-      {/* här vill jag ha en div med de olika posterna */}
-      <div>
-        <ul>
-          {messages.map((item) => (
-            <li>{item}</li>
-          ))}
-        </ul>
+      <div className="navStyle">
+        <p>
+          PROFIL Har en kreativ och lösningsorienterad förmåga som tillsammans
+          med mitt strukturerade och nyfikna sätt gör mig till en lovande
+          blivande utvecklare. På fritiden gillar jag att lösa pussel vilket jag
+          tycker speglar mitt tålamod och intresse för problemlösning. Det är
+          viktigt för mig att växa och utvecklas individuellt och jag ser inga
+          problem med att göra det tillsammans med andra. Jag söker nu LIA i
+          samband med mina studier som webbutvecklare inom .NET. Hoppas att ni
+          är intresserade av att lära känna mig mera! 😊
+        </p>
+        <div className="navStyle centerDiv">
+          <Form handleMessages={handleMessages} />
+        </div>
+        <div>
+          <ul className="lisStyle">
+            {messages.map((item) => (
+              <li className="lis">
+                <p>{item.fromMessage}</p>
+                <p className="italic">- {item.fromMail}</p>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </div>
   );
