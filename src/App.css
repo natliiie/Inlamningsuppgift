@@ -7,14 +7,14 @@
   text-align: center;
 }
 
-.lis {
+.list {
   padding: 20px;
   box-shadow: 0 30px 50px lightgrey;
   width: 20%;
   word-break: break-all;
 }
 
-.lisStyle {
+.listStyle {
   height: fit-content;
   text-align: center;
   align-items: center;
