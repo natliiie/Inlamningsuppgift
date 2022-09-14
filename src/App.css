@@ -88,3 +88,9 @@ textarea {
   resize: none;
   height: 4rem;
 }
+
+.familyImg {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+}
