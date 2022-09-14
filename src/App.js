@@ -11,10 +11,10 @@ function App() {
   };
 
   return (
-    <div>
+    <div className="body">
       <Navbar />
       <div className="navStyle flexCol">
-        <p>
+        <p className="textStyle">
           Har en kreativ och lösningsorienterad förmåga som tillsammans med mitt
           strukturerade och nyfikna sätt gör mig till en lovande blivande
           utvecklare. På fritiden gillar jag att lösa pussel vilket jag tycker

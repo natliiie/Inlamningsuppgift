@@ -1,3 +1,14 @@
+.body{
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.textStyle {
+  margin-top: 5rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
+
 .navStyle {
   box-shadow: 0 30px 50px lightgrey;
   display: flex;
@@ -11,7 +22,7 @@
   padding: 20px;
   box-shadow: 0 30px 50px lightgrey;
   width: 20%;
-  word-break: break-all;
+  word-break:normal;
 }
 
 .listStyle {
