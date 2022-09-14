@@ -25,11 +25,11 @@ const Form = ({ handleMessages }) => {
       <p>Post a message?</p>
 
       <form onSubmit={handleSubmit}>
-        <label>Email</label>
+        <label>From</label>
         <input
           type="text"
           name="fromMail"
-          placeholder="name@email.com"
+          placeholder="Name"
           value={mailMessage.fromMail}
           onChange={handleChange}
         />
